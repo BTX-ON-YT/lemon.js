@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #202124;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+img {
+    filter: hue-rotate(170deg);
+    width: 256px;
+    animation: spin 10s linear infinite;
+}
+a {
+    color: #097afd;
+    text-decoration: none;
+    
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
